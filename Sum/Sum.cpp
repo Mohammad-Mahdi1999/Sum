@@ -13,6 +13,7 @@ void main()
 	cin >> num2;
 	sum = num1 + num2;
 	cout << "Sum of the numbers  is " << sum << "!" << endl;
-	system("pause");
+	cin.get();
+	cin.ignore();
 }
 //Created by /%++;; Mohammad-Mahdi Farah-bakhsh ;;++%\
