@@ -1,17 +1,19 @@
 // In the name of God !
 //Sum
-//V1 
+//V1.2
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
 
 void main()
 {
-	int num1, num2, sum;
+	int num,i,sum=0;
 	cout << "Enter two numbers :" << endl;
-	cin >> num1;
-	cin >> num2;
-	sum = num1 + num2;
+	for (i = 1; i <= 2; i++) 
+	{
+		cin >> num;
+		sum = sum + num;
+	}
 	cout << "Sum of the numbers  is " << sum << "!" << endl;
 	cin.get();
 	cin.ignore();
