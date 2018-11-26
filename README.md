@@ -1,4 +1,4 @@
 # Sum
 Sum of numbers!
 Sum of two numbers in C++.
-Using While loop !!
+v1.7: Using Array !!
