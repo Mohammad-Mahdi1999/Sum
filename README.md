@@ -1,4 +1,4 @@
 # Sum
 Sum of numbers!
 Sum of two numbers in C++.
-v1.7: Using Array !!
+v2.0: Using Function !!

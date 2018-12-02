@@ -1,22 +1,25 @@
 // In the name of God !
 //Sum
-//V1.7
+//V2.0
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
-
+void sum(double x,double y)
+{
+	double sum;
+	sum = x + y;
+	cout  << "=   " << sum << endl;
+}
 void main()
 {
-	int num[20],i=0,sum=0;
+	double x,y;
 	cout << "Enter two numbers :" << endl;
-	while (i<2)
-	{
-	cin >> num[i];
-	i++;
-	}
-	for (i = 0; i < 2; i++)
-		sum = num[i] + sum;
-	cout << "Sum of the numbers  is " << sum << "!" << endl;
+	cout << "    ";
+	cin >> x;
+	cout << "+   ";
+	cin >> y;
+	cout << "____________" << "\n";
+	sum(x, y);
 	cin.get();
 	cin.ignore();
 }
